@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.video-bgm {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -21;
+}
+h1 {
+  color: #fffb0a;
+}
+p {
+  color: #f0f0f0;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px auto;
+  color: #f0f0f0;
+  font-weight: bolder;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bolder;
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: transparent;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #f0f0f0;
+}
+
+.reset-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#clickSound {
+  display: none;
+}
+#winSound {
+  display: none;
+}
+
+/* Add this to your CSS to style the winner display */
+/* ... (existing code) */
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* .game-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 20px;
+} */
+
+.info {
+  text-align: center;
+}
+
+#winnerInfo {
+  text-align: center;
+  display: none; /* Initially hide the winner info */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#winnerName {
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 200%;
+  color: #f0f0f0;
+  /* margin-top: -200%; */
+}
+
+#winnerGif {
+  position: absolute;
+  top: -155px;
+  left: 270px;
+  transition: width 5s ease-in-out;
+}

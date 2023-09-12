@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <video autoplay loop muted plays-inline class="video-bgm">
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+    <div class="game-container">
+      <h1>Welcome to Tic-Tac-Toe Game</h1>
+      <div class="game-content">
+        <div class="board" id="board"></div>
+
+        <div class="info">
+          <button class="reset-button" id="resetBtn">Reset Game</button>
+          <div class="winner-info" id="winnerInfo">
+            <img id="winnerGif" src="excited.gif" alt="Winner's GIF" />
+            <p id="winnerName"></p>
+          </div>
+        </div>
+      </div>
+      <p id="quote"></p>
+
+      <div class="message" id="message"></div>
+    </div>
+    <audio id="clickSound" src="ting.mp3"></audio>
+    <audio id="winSound" src="music.mp3"></audio>
+    <script src="index.js"></script>
+  </body>
+</html>
