@@ -1,5 +1,6 @@
 LIVE DEMO:- https://sdikshith-tic-tac-toe-game.netlify.app
-NOTE:- The background video is too high MB i.e, 260MB and GitHub has limit of 25mb Due to that I'm unable to upload the background video link I apologize.
+NOTE:- The background video is too high MB i.e, 260MB and GitHub has limit of 25mb Due to that I'm unable to upload the background video link I apologize. And also view the website in brave or chrome but not in 
+       Microsoft edge because there are some issues or glitches which i don't know i need to explore a it.
 
 Summary:- I have made a Tic-Tac-Toe Game and added some features like on click sound and whenever we have a winner a music plays as a reward or you can say for joy and also a cute gif has been added. and i have also added a background video which makes even more amazing to play and have a best experience in this application.
 
